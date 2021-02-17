@@ -9,16 +9,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text("Myapp")),
+        appBar: AppBar(backgroundColor: Colors.red[800], title: Text('MyApp')),
         body: Column(
           children: [
-            TextField(
-              obscureText: false,
-              decoration: InputDecoration(
-                border: OutlineInputBorder(),
-                labelText: 'Berita Terkini',
-              ),
-            ),
+            Text('Berita baru              Trending Topic                  Hot news ',textAlign: TextAlign.center,),
             Container(
                 decoration: BoxDecoration(
                   color: const Color(0xff7c94b6),
